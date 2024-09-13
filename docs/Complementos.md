@@ -71,22 +71,6 @@ Certifique-se de que o script seja carregado após o carregamento dos elementos 
 
 ## [Unreleased]
 
-### Adicionado
-- **Segurança e Privacidade:** Adicionadas seções para segurança e conformidade com regulamentações de proteção de dados.
-- **Personalização e Extensibilidade:** Adicionadas orientações para personalização e extensibilidade do script.
-- **Testes e Depuração:** Adicionadas instruções para testar e depurar o script.
-- **Exemplos de Uso:** Adicionada a seção com exemplos de integração do script.
-
-#### [1.1.0] - 2024-09-13
-
-### Adicionado
-- **Manuseio de Abas no Modal:** Implementação das abas para configurações detalhadas de cookies.
-- **Lógica de Exibição do Pop-up:** Pop-up de cookies agora só aparece na página inicial e respeita o tempo de expiração configurado.
-- **Compatibilidade com Navegadores:** Melhorias na compatibilidade com navegadores.
-### Corrigido
-- **Erro na Variável não Definida:** Correção de variáveis não definidas (`functionalCookiesCheckbox`, `statisticsCookiesCheckbox`, `marketingCookiesCheckbox`).
-- **Problema de Exibição do Pop-up:** Ajuste no código para garantir que o pop-up apareça corretamente na tela inicial e não seja exibido nas páginas internas.
-
 #### [1.0.0] - 2024-09-09
 
 ### Adicionado
@@ -97,3 +81,25 @@ Certifique-se de que o script seja carregado após o carregamento dos elementos 
 
 ### Corrigido
 - **Problema de Exibição do Pop-up:** Ajustes para garantir que o pop-up não apareça mais de uma vez dentro do período de expiração.
+
+### Adicionado
+- **Segurança e Privacidade:** Adicionadas seções para segurança e conformidade com regulamentações de proteção de dados.
+- **Personalização e Extensibilidade:** Adicionadas orientações para personalização e extensibilidade do script.
+- **Testes e Depuração:** Adicionadas instruções para testar e depurar o script.
+- **Exemplos de Uso:** Adicionada a seção com exemplos de integração do script.
+
+## [Released]
+
+#### [1.1.0] - 2024-09-13
+
+### Adicionado
+- **Manuseio de Abas no Modal:** Implementação das abas para configurações detalhadas de cookies.
+- **Lógica de Exibição do Pop-up:** Pop-up de cookies agora só aparece na página inicial e respeita o tempo de expiração configurado.
+- **Compatibilidade com Navegadores:** Melhorias na compatibilidade com navegadores.
+  
+### Corrigido
+- **Erro na Variável não Definida:** Correção de variáveis não definidas (`functionalCookiesCheckbox`, `statisticsCookiesCheckbox`, `marketingCookiesCheckbox`).
+  
+- **Problema de Exibição do Pop-up:** Ajuste no código para garantir que o pop-up apareça corretamente na tela inicial e não seja exibido nas páginas internas.
+
+
