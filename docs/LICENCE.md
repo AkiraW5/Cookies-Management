@@ -4,18 +4,13 @@
 
 ## Introdução
 
-Esta Licença de Uso Restrito é uma adaptação da Licença Apache 2.0 criada especificamente para regular a utilização, modificação e redistribuição do código fonte associado a este documento. O objetivo desta licença é proteger os direitos do detentor e assegurar que o código fonte seja utilizado estritamente para o Projeto especificado e para nenhum outro propósito sem permissão expressa.
+Esta Licença de Uso Restrito é uma adaptação da Licença Apache 2.0 criada especificamente para regular a utilização, modificação e redistribuição do código fonte associado a este documento. O objetivo desta licença é proteger os direitos do detentor e assegurar que o código fonte seja utilizado estritamente para utilização pessoal e para nenhum outro propósito sem permissão expressa.
 
 A aceitação desta licença implica na concordância com todos os termos e condições aqui estabelecidos. É fundamental que todas as partes envolvidas leiam atentamente cada cláusula e compreendam suas responsabilidades e obrigações antes de utilizar o código fonte.
 
 ## 1. Definições e Interpretações
 
-### 1.1 Definições
-
-- **Código Fonte:** Refere-se ao código de programação, scripts e outros materiais fornecidos sob esta licença.
-- **Projeto:** O Projeto especificado para o qual o código fonte pode ser utilizado, descrito como **Plugin de Cookies**.
-
-### 1.2 Interpretação
+### 1.1 Interpretação
 
 Em caso de ambiguidades ou questões não previstas, as interpretações serão feitas de maneira que respeite o objetivo principal desta licença, que é a proteção e controle do uso do código fonte.
 
