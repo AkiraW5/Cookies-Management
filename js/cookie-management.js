@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const marketingCookiesCheckbox = document.getElementById('marketing-cookies-checkbox');
 
     const popupShownTimestampKey = 'cookie-popup-shown-timestamp';
-    const popupExpiryDays = 0; // Define o tempo de expiração do pop-up em dias
+    const popupExpiryDays = 1; // Define o tempo de expiração do pop-up em dias
 
     // Função para verificar se o pop-up deve ser exibido
     const shouldShowCookiePopup = () => {
