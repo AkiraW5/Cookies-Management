@@ -132,7 +132,7 @@ Se qualquer cláusula desta licença for considerada inválida ou inaplicável, 
 
 ## 12. Contato
 
-Para solicitar permissão para qualquer uso além do previsto nesta licença, ou se tiver dúvidas sobre os termos, entre em contato com Felipe Benedito Rodrigues através do e-mail p16195372@gmail.com ou visite [https://github.com/AkiraW5](https://github.com/AkiraW5).
+Para solicitar permissão para qualquer uso além do previsto nesta licença, ou se tiver dúvidas sobre os termos, entre em contato com autor através do e-mail p16195372@gmail.com ou visite [https://github.com/AkiraW5](https://github.com/AkiraW5).
 
 ## 13. Atribuição
 
