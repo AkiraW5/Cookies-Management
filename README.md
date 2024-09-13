@@ -84,7 +84,7 @@ Certifique-se de seguir as diretrizes de contribuição e manter o código confo
 
 ## Contato
 
-Para perguntas, permissões adicionais ou contribuições, entre em contato com Felipe Benedito Rodrigues pelo e-mail p16195372@gmail.com ou visite [https://github.com/AkiraW5](https://github.com/AkiraW5).
+Para perguntas, permissões adicionais ou contribuições, entre em contato com autor pelo e-mail p16195372@gmail.com ou visite [https://github.com/AkiraW5](https://github.com/AkiraW5).
 
 ## Atribuição
 
