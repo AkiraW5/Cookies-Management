@@ -23,24 +23,24 @@ body {
 #cookie-popup {
     display: none; /* Inicia oculto */
     position: fixed;
-    bottom: 5vh; /* 5% da altura da viewport */
-    left: 5vw;   /* 5% da largura da viewport */
-    right: 5vw;  /* 5% da largura da viewport */
+    bottom: 2vh; /* 5% da altura da viewport */
+    left: 2vw;   /* 5% da largura da viewport */
+    right: 2vw;  /* 5% da largura da viewport */
     margin: auto;
     background-color: #c5c4c4c9;
-    padding: 20px;
+    padding: 10px;
     border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     z-index: 1000;
-    max-width: 90vw; /* Máximo de 90% da largura da tela */
-    max-height: 50vh; /* Máximo de 50% da altura da tela */
+    max-width: 80vw; /* Máximo de 90% da largura da tela */
+    max-height: 40vh; /* Máximo de 50% da altura da tela */
 }
 
 /* Conteúdo do Pop-up */
 #cookie-popup-content {
     display: flex;
     flex-direction: column;
-    gap: 10px; /* Espaçamento entre os botões */
+    gap: 5px; /* Espaçamento entre os botões */
     text-align: center; /* Centraliza o texto */
 }
 
@@ -48,13 +48,13 @@ body {
 #accept-all,
 #reject-all,
 #cookie-settings {
-    padding: 10px;
+    padding: 8px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 12px;
     width: 100%; /* Largura total dentro do container */
-    margin: 5px 0; /* Margem superior e inferior para espaçamento */
+    margin: 4px 0; /* Margem superior e inferior para espaçamento */
 }
 
 /* Estilos Específicos dos Botões */
