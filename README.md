@@ -70,7 +70,7 @@ O plugin é distribuído sob a Licença de Uso Restrito - Versão Adaptada da Li
 
 - **Uso Permitido:** Apenas para fins pessoais e não comerciais, a menos que autorizado expressamente.
 - **Autorização Comercial:** O uso comercial é permitido desde que o autor autorize a usar para no máximo um projeto por empresa. Para mais projetos, é necessária nova autorização.
-- **Contribuições:** Contribuições são bem-vindas e concedem ao autor uma licença não exclusiva e mundial para utilização e distribuição.
+- **Contribuições:** Contribuições são bem-vindas.
 
 ## Contribuições
 
