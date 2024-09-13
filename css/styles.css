@@ -1,0 +1,179 @@
+/* Reset de Elementos Comuns */
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos Globais */
+body {
+    font-size: 15px;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #fff;
+}
+
+/* Pop-up de Cookies */
+#cookie-popup {
+    display: none; /* Inicia oculto */
+    position: fixed;
+    bottom: 5vh; /* 5% da altura da viewport */
+    left: 5vw;   /* 5% da largura da viewport */
+    right: 5vw;  /* 5% da largura da viewport */
+    margin: auto;
+    background-color: #c5c4c4c9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    max-width: 90vw; /* Máximo de 90% da largura da tela */
+    max-height: 50vh; /* Máximo de 50% da altura da tela */
+}
+
+/* Conteúdo do Pop-up */
+#cookie-popup-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Espaçamento entre os botões */
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Botões do Pop-up */
+#accept-all,
+#reject-all,
+#cookie-settings {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 100%; /* Largura total dentro do container */
+    margin: 5px 0; /* Margem superior e inferior para espaçamento */
+}
+
+/* Estilos Específicos dos Botões */
+#accept-all {
+    background-color: #28a745;
+    color: #fff;
+}
+
+#reject-all {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+#cookie-settings {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Modal de Configurações de Cookies */
+#cookie-settings-modal {
+    display: none; /* Inicia oculto */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1001;
+    display: flex; /* Flexbox para centralizar */
+    align-items: center;
+    justify-content: center;
+}
+
+/* Conteúdo do Modal de Configurações */
+#cookie-settings-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 500px;
+    max-height: 80vh; /* Limita a altura máxima para evitar overflow */
+    overflow-y: auto; /* Permite scroll se o conteúdo exceder a altura */
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Menu das Abas */
+#menu {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px; /* Espaço entre o menu e o conteúdo */
+}
+
+/* Botões das Abas */
+.tab-button {
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+/* Aba Ativa */
+.tab-button.active {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+}
+
+/* Conteúdo das Abas */
+#tabs {
+    flex: 1; /* Permite que o conteúdo das abas ocupe o espaço restante */
+}
+
+.tab-content {
+    display: none;
+    padding-top: 10px;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+/* Botões no Modal de Configurações */
+#save-settings,
+#close-settings {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 100%;
+}
+
+#save-settings {
+    background-color: #007bff;
+    color: #fff;
+}
+
+#close-settings {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+/* Estilo específico para o checkbox de cookies necessários */
+#mandatory-cookies-checkbox:checked + .checkbox-label {
+    color: #333; /* Cor quando o checkbox está ativado */
+}
+
+#mandatory-cookies-checkbox:not(:checked) + .checkbox-label {
+    color: #888; /* Cor quando o checkbox está desativado */
+}
+
+/* Certifique-se de que o checkbox de cookies necessários não tenha estilos de desabilitado aplicados */
+#mandatory-cookies-checkbox[disabled] + .checkbox-label {
+    color: #888; /* Cor quando o checkbox está desabilitado, se for o caso */
+    opacity: 0.5; /* Menos opacidade para indicar desabilitado */
+}
+

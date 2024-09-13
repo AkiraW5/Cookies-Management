@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/3.0.1/js.cookie.min.js"></script>
+    <script type="module" src="../js/cookie-management.js" defer></script>
+    <title>Notificação de Cookies</title>
+</head>
+<body>
+    <!-- Notificação de Cookies -->
+    <div id="cookie-popup">
+        <div id="cookie-popup-content">
+            <p>Utilizamos cookies para melhorar sua experiência em nosso site. Ao continuar navegando, você concorda com o uso de cookies. Para mais detalhes, consulte nossa <a href="politica-de-privacidade.html" aria-label="Leia nossa Política de Privacidade">Política de Privacidade</a>.</p>
+            <button id="accept-all" aria-label="Aceitar todos os cookies">Aceitar todos</button>
+            <button id="reject-all" aria-label="Rejeitar todos os cookies">Rejeitar todos</button>
+            <button id="cookie-settings" aria-label="Configurações de cookies">Configurações</button>
+        </div>
+    </div>
+
+    <!-- Modal de Configurações de Cookies -->
+    <div id="cookie-settings-modal" style="display: none;">
+        <div id="cookie-settings-content">
+            <div id="menu">
+                <button class="tab-button" data-tab="mandatory-cookies" aria-label="Cookies Necessários">Cookies Necessários</button>
+                <button class="tab-button" data-tab="functional-cookies" aria-label="Cookies de Funcionalidade">Cookies de Funcionalidade</button>
+                <button class="tab-button" data-tab="statistics-cookies" aria-label="Cookies de Estatísticas">Cookies de Estatísticas</button>
+                <button class="tab-button" data-tab="marketing-cookies" aria-label="Cookies de Marketing">Cookies de Marketing</button>
+            </div>
+            <div id="tabs">
+                <div id="mandatory-cookies" class="tab-content">
+                    <h2>Cookies Necessários</h2>
+                    <p>Essenciais para o funcionamento do site, permitindo navegação e acesso às funcionalidades básicas.</p>
+                    <label><input type="checkbox" id="mandatory-cookies-checkbox" checked disabled aria-label="Cookies Necessários"> Necessário</label>
+                </div>
+                <div id="functional-cookies" class="tab-content">
+                    <h2>Cookies de Funcionalidade</h2>
+                    <p>Cookies que ajudam a personalizar sua experiência no site.</p>
+                    <label><input type="checkbox" id="functional-cookies-checkbox" aria-label="Cookies de Funcionalidade"> Funcionalidade</label>
+                </div>
+                <div id="statistics-cookies" class="tab-content">
+                    <h2>Cookies de Estatísticas</h2>
+                    <p>Cookies que ajudam a entender como você usa o site.</p>
+                    <label><input type="checkbox" id="statistics-cookies-checkbox" aria-label="Cookies de Estatísticas"> Estatísticas</label>
+                </div>
+                <div id="marketing-cookies" class="tab-content">
+                    <h2>Cookies de Marketing</h2>
+                    <p>Cookies usados para personalizar anúncios e campanhas.</p>
+                    <label><input type="checkbox" id="marketing-cookies-checkbox" aria-label="Cookies de Marketing"> Marketing</label>
+                </div>
+            </div>
+            <button id="save-settings" aria-label="Salvar configurações de cookies">Salvar Configurações</button>
+            <button id="close-settings" aria-label="Fechar configurações">Fechar</button>
+        </div>
+    </div>
+
+    <!-- Inclusão do JavaScript -->
+    <script type="module" src="../js/DataCollector.js" defer></script>
+</body>
+</html>
