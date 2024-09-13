@@ -1,4 +1,5 @@
-#### Introdução
+## Integração com o Sistema de Consentimento de Cookies
+### Introdução
 
 Esta documentação descreve como usar o módulo `DataCollector.js` para gerenciar o consentimento de cookies em seu projeto. O módulo fornece uma função para obter dados de consentimento e permite que você controle a coleta de dados com base nas preferências dos usuários.
 
